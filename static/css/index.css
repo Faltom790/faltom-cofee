@@ -18,9 +18,11 @@
 }
 .hero-text{
     font-family:var(--hdfont);
-    font-size: 4em;
-    letter-spacing: 5px;
+    font-size: 1em;
+    letter-spacing: 3px;
     font-weight: 700;
+    text-align: center;
+    color: var(--altcolor);
 }
 .px{
     padding: 0px 100px;
@@ -74,4 +76,225 @@ main{
 .main-box img{
     display: block;
     margin: 0px auto;
+}
+/* WORD STYLING */
+.word{
+    width: auto;
+    height: 20px;
+    background-color: white;
+}.next-word{
+    width: auto;
+    height: 100px;
+    background-color: white;
+}
+.next{
+    font-family:var(--tltfont);
+    font-size: 2em;
+    letter-spacing: 3px;
+    font-weight: 700;
+    text-align: center;
+    color: var(--blkcolor);
+}
+/* Images Styling */
+.contain{
+    width: auto;
+    height: 250px;
+    margin: 5px auto;
+}
+/* About Us Styling */
+ #about{
+    width: auto;
+    height: 7vh;
+    display: flex;
+    margin: 20vh 0;
+    margin: right 10vh;
+ }
+ .about-box1{
+    width: 50%;
+    height:100%;
+    border-radius: 5px;
+    margin-right:5%;
+    align-items: center;
+    justify-content: center;
+ }
+ .about-box2{
+    width:45%;
+    height:45px;
+    margin: auto 0;
+ }
+ #about.about-box2 h3{
+        font-weight: bolder;
+        color: var(--altcolor);
+        font-family:var(--tltfont);
+ }
+ #about.about-box2 h2{
+    font-size: 2.5em;
+ }
+ #about.about-box2 div{
+    width:auto;
+    height:20px;
+    margin-top: 5%;
+    display: flex;
+ }
+ #about.about-box2 div span{
+   margin-right:auto;
+ }
+ #about.about-box2 div span .n{
+    color:var(--altcolor);
+    font-weight: bolder;
+    font-size: 1.3em;
+    font-family:var(--tltfont);
+  }
+  #about.about-box2 div span .j{
+    font-weight: bold;
+    font-size: 1.1em;
+    font-family:var(--tltfont);
+  }
+  #about.about-box2 p{
+    font-family:var(--pfont);
+  }
+/* Services Styling */
+.serve{
+    width: auto;
+    margin: 10px auto;
+  }
+.s1{
+    width: 25%;
+    height: 250px;
+    margin: 20px;
+}
+.s2{
+    width: 25%;
+    height: 250px;
+    margin: 20px;
+}
+.s3{
+    width: 25%;
+    height: 250px;
+    margin: 20px;
+}
+.s4{
+    width: 25%;
+    height: 250px;
+    margin: 20px;
+}
+.s5{
+    width: 25%;
+    height: 250px;
+    margin: 20px;
+}
+.s6{
+    width: 25%;
+    height: 250px;
+    margin: 20px;
+}
+.sec{
+    width: auto;
+    height: fit-content;
+    margin: 20px auto;
+
+}
+.df2{
+    display: flex;
+    justify-content: space-around; 
+    justify-content: space-between; 
+}
+.icon{
+  text-align: left;  
+ }
+ .LM{
+    margin: 600px;
+ }
+ .btn2{
+    background-color:var(--blkcolor);
+    padding: 5px 20px;
+    color: var(--litcolor);
+}
+.btn2:hover{
+    background: none;
+    color: var(--blkcolor);
+    bottom: 2px solid var(--blkcolor);
+    padding: 5px 20px;
+}
+/* Testimonial Styling */
+aside{
+  width: auto;
+  height:  500px;  
+  margin: 70px 50px 0px 50px;
+}
+.tpic{
+     width:80%;
+     height: 350px;
+     display: flex;
+     justify-content: left;
+     text-align: center;
+}
+/* Faqs Styling */
+.faqs{
+    width: auto;
+    height: 400px;
+    background-color: white;
+    color: var(--blkcolor);
+    font-size: 30px;
+    font-family: var(--pfont);
+}
+/* subscribe styling */
+.sub{
+    width: auto;
+    height: 400px;
+    text-align: center;
+    font-family: var(--tltfont);
+    font-size: larger;
+}
+.btn3{
+    background-color:var(--altcolor);
+    padding: 2px 20px;
+    color: var(--litcolor);
+}
+.btn2:hover{
+    background: none;
+    color: var(--altcolor);
+    bottom: 2px solid var(--altcolor);
+    padding: 5px 20px;
+}
+/* Footer Styling */
+.one{
+    width: 100%;
+    height: 300px;
+    background-color:var(--blkcolor);
+}
+.two{
+    width: 20%;
+    height: 300px;
+
+}
+.three{
+    width: 20%;
+    height: 300px;
+  
+}
+.four{
+    width: 20%;
+    height: 300px;
+
+}
+.five {
+    width: 20%;
+    height: 300px;
+   
+}
+.six{
+    width: 20%;
+    height: 300px;
+}
+.foot{
+   display: flex;
+   justify-content: center;
+   justify-content: space-between;
+}
+.foter{
+    font-size: larger;
+    font-family: var(--pfont);
+    color: var(--litcolor);
+    margin: 50px 50px 50px;
 }
